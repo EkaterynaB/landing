@@ -3,3 +3,29 @@
   padding: 25rem 0;
   margin-top: -20vh;
 }
+
+.section-features {
+  padding: 20rem 0;
+  margin-top: -10rem;
+
+  background: linear-gradient(
+                  to right bottom,
+                  rgba($color-primary, 0.8),
+                  rgba($color-primary-dark, 0.8)),
+  url(../img/nat-4.jpg) no-repeat top center;
+  background-size: cover;
+
+  //clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%);
+  transform: skewY(-7deg);
+
+  & > * {
+    transform: skewY(7deg);
+  }
+}
+
+
+.section-tours {
+  background-color: $color-grey-light-1;
+  padding: 25rem 0 50rem;
+  margin-top: -10rem;
+}
